@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-27T10:21:38.156Z",
+        "line": 45,
+        "name": "Credentials",
+        "description": "",
+        "id": "product-purchase;credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21960131500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "credentials are",
+            "match": {
+              "location": "DefineStep.credentials_are(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "user2"
+                ]
+              },
+              {
+                "cells": [
+                  "user3"
+                ]
+              },
+              {
+                "cells": [
+                  "user4"
+                ]
+              },
+              {
+                "cells": [
+                  "user5"
+                ]
+              },
+              {
+                "cells": [
+                  "user6"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataTable"
+          }
+        ]
+      }
+    ],
+    "name": "product purchase",
+    "description": "",
+    "id": "product-purchase",
+    "keyword": "Feature",
+    "uri": "file:Features/demo.feature",
+    "tags": []
+  }
+]
